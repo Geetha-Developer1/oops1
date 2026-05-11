@@ -24,11 +24,11 @@ namespace oops1
 
     internal class Printingmyname
     {
-       static void Main(String[] args)
-        {
-            PrintingName pn = new PrintingName();
-            pn.name();
-            pn.name("Geetha");
-        }
+       //static void Main(String[] args)
+       // {
+       //     PrintingName pn = new PrintingName();
+       //     pn.name();
+       //     pn.name("Geetha");
+       // }
     }
 }
