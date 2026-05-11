@@ -33,13 +33,13 @@ namespace oops1
     }
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Myclass obj1 = new Myclass();
-            obj1.greet();
-            obj1.greet("Rama");
-            obj1.add(10, 20);
-            obj1.add();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Myclass obj1 = new Myclass();
+        //    obj1.greet();
+        //    obj1.greet("Rama");
+        //    obj1.add(10, 20);
+        //    obj1.add();
+        //}
     }
 }
