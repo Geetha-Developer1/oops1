@@ -46,6 +46,7 @@
     <Compile Include="Printingmyname.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="withreturntype_withoutparameters.cs" />
     <Compile Include="withrt_withparams.cs" />
   </ItemGroup>
