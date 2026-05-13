@@ -67,13 +67,13 @@ namespace oops1
             return sum;
            
         }
-        static void Main(string[] args)
-        {
-            Student std = new Student();
-            Console.WriteLine("Enter Number of students you want:");
-            int  num = int.Parse(Console.ReadLine());
-            std.details(num);
+        //static void Main(string[] args)
+        //{
+        //    Student std = new Student();
+        //    Console.WriteLine("Enter Number of students you want:");
+        //    int  num = int.Parse(Console.ReadLine());
+        //    std.details(num);
 
-        }
+        //}
     }
 }
