@@ -31,21 +31,21 @@ namespace oops1
     }
     internal class StudentDetailsbyUsingArray
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("How many students you want to enter:");
-            int num=int.Parse(Console.ReadLine());
-            student[] std = new student[num];
-            for (int i = 0; i < std.Length; i++)
-            {
-                std[i] = new student();
-                std[i].getdetails();
-            }
-            Console.WriteLine("----------------------");
-            for (int i = 0; i < std.Length; i++)
-            {
-                std[i].display();
-            }
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("How many students you want to enter:");
+        //    int num=int.Parse(Console.ReadLine());
+        //    student[] std = new student[num];
+        //    for (int i = 0; i < std.Length; i++)
+        //    {
+        //        std[i] = new student();
+        //        std[i].getdetails();
+        //    }
+        //    Console.WriteLine("----------------------");
+        //    for (int i = 0; i < std.Length; i++)
+        //    {
+        //        std[i].display();
+        //    }
+        //}
     }
 }
