@@ -43,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constructore.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="employeesalhikebyusingconstructors.cs" />
+    <Compile Include="parameterizedconstructor.cs" />
     <Compile Include="Printingmyname.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentDetailsbyUsingArray.cs" />
     <Compile Include="StudentwithSearch.cs" />
+    <Compile Include="UserDefinedDefaultConstructor.cs" />
     <Compile Include="withreturntype_withoutparameters.cs" />
     <Compile Include="withrt_withparams.cs" />
   </ItemGroup>

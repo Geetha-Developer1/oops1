@@ -9,7 +9,7 @@ namespace oops1
     public class employee
     {
         int eid;
-        string name;
+        public string name;
         double sal;
         static string company = "ABC Company";
         public void getdetails()
@@ -31,22 +31,28 @@ namespace oops1
     }
     internal class Employee
     {
-        static void Main(String[] args)
-        {
-            Console.WriteLine("How many Employee Details you want to Enter:");
-            int num = int.Parse(Console.ReadLine());
-            employee[] emp = new employee[num];
-            for (int i = 0; i < emp.Length; i++)
-            {
-                emp[i] = new employee();
-                emp[i].getdetails();
+        //static void Main(String[] args)
+        //{
+        //    Console.WriteLine("How many Employee Details you want to Enter:");
+        //    int num = int.Parse(Console.ReadLine());
+        //    employee[] emp = new employee[num];
+        //    for (int i = 0; i < emp.Length; i++)
+        //    {
+        //        emp[i] = new employee();
+        //        emp[i].getdetails();
                 
-            }
-            Console.WriteLine("-----------------------");
-            for (int i = 0; i < emp.Length; i++)
-            {
-                emp[i].display();
-            }
-        }
+        //    }
+        //    Console.WriteLine("-----------------------");
+        //    Console.WriteLine("Enter employee name to search:");
+        //    string search = Console.ReadLine();
+        //    for (int i = 0; i < emp.Length; i++)
+        //    {
+        //        if (search == emp[i].name)
+        //        {
+        //            emp[i].display();
+        //        }
+               
+        //    }
+       // }
     }
 }
