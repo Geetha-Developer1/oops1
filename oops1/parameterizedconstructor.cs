@@ -57,25 +57,25 @@ namespace oops1
     }
     internal class parameterizedconstructor
     {
-        static void Main(string[] args)
-        {
-            student3 obj1 = new student3(101, "Rama", 25000);
-            Console.WriteLine("---------------------------Parameterized Constructor student details");
+        //static void Main(string[] args)
+        //{
+        //    student3 obj1 = new student3(101, "Rama", 25000);
+        //    Console.WriteLine("---------------------------Parameterized Constructor student details");
 
-            obj1.display();
-            student3 obj2 = new student3();
-            Console.WriteLine("---------------------------Default Constructor student details");
-            obj2.display();
+        //    obj1.display();
+        //    student3 obj2 = new student3();
+        //    Console.WriteLine("---------------------------Default Constructor student details");
+        //    obj2.display();
 
 
-            employee5 e=new employee5();
-            Console.WriteLine("---------------------------Default Constructor Employee details");
-            e.displayemp();
-            employee5 emp = new employee5(102, "Sita", 300000);
-            Console.WriteLine("---------------------------Parameterized Constructor Employee details");
-            emp.displayemp();
+        //    employee5 e=new employee5();
+        //    Console.WriteLine("---------------------------Default Constructor Employee details");
+        //    e.displayemp();
+        //    employee5 emp = new employee5(102, "Sita", 300000);
+        //    Console.WriteLine("---------------------------Parameterized Constructor Employee details");
+        //    emp.displayemp();
            
 
-        }
+        //}
     }
 }
