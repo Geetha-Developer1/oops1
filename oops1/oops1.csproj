@@ -54,6 +54,7 @@
     <Compile Include="Student.cs" />
     <Compile Include="StudentDetailsbyUsingArray.cs" />
     <Compile Include="StudentwithSearch.cs" />
+    <Compile Include="thiskeyword.cs" />
     <Compile Include="UserDefinedDefaultConstructor.cs" />
     <Compile Include="withreturntype_withoutparameters.cs" />
     <Compile Include="withrt_withparams.cs" />

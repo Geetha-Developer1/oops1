@@ -8,5 +8,6 @@ namespace oops1
 {
     internal class copy_constructor
     {
+
     }
 }

@@ -38,6 +38,13 @@ namespace oops1
             sname = name;
             sage = age;
         }
+        public student4(int id,short age)
+        {
+            sid = id;
+            sname = "Not Provided";
+            sage = age;
+        }
+       
         public student4(string name,short age)
         {
             sname = name;
@@ -53,20 +60,20 @@ namespace oops1
     }
     internal class Construtor_Overloading
     {
-      static void Main(string[] args)
-        {
-            student4 s1 = new student4(101);
-            s1.display();
-            Console.WriteLine("-------------------------");
-            student4 s2 = new student4("Rama");
-            s2.display();
-            Console.WriteLine("-------------------------");
-            student4 s3 = new student4(20);
-            s3.display();
-            Console.WriteLine("-------------------------");
-            student4 s4 = new student4(102,"Sita",21);
-            s4.display();
+      //static void Main(string[] args)
+      //  {
+      //      student4 s1 = new student4(101);
+      //      s1.display();
+      //      Console.WriteLine("-------------------------");
+      //      student4 s2 = new student4("Rama");
+      //      s2.display();
+      //      Console.WriteLine("-------------------------");
+      //      student4 s3 = new student4(20);
+      //      s3.display();
+      //      Console.WriteLine("-------------------------");
+      //      student4 s4 = new student4(102,"Sita",21);
+      //      s4.display();
 
-        }
+      //  }
     }
 }
