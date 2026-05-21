@@ -25,7 +25,11 @@ namespace oops1
     {
        static void Main(string[] args)
         {
-            Student6 obj = new Student6(101, "Rama");
+            Console.WriteLine("Enter Student ID:");
+            int sid = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Student Name:");
+            string sname = Console.ReadLine();
+            Student6 obj = new Student6(sid, sname);
             obj.Display();
         }
     }
