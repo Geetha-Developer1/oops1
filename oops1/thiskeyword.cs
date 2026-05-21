@@ -23,10 +23,10 @@ namespace oops1
     }
     internal class thiskeyword
     {
-        static void Main(String[] args)
-        {
-            newclass obj = new newclass(10,20);
-            obj.add();
-        }
+        //static void Main(String[] args)
+        //{
+        //    newclass obj = new newclass(10,20);
+        //    obj.add();
+        //}
     }
 }
