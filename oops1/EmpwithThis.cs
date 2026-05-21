@@ -28,35 +28,35 @@ namespace oops1
     }
     internal class EmpwithThis
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("How many Employees you want to tack:");
-            int n = int.Parse(Console.ReadLine());
-            Employ[] emp = new Employ[n];
-            for(int i=0;i<n;i++)
-            {
-                Console.Write("\nEnter ID:");
-                int eid = int.Parse(Console.ReadLine());
-                Console.Write("Enter Name:");
-                string ename = Console.ReadLine();
-                Console.Write("Enter salary:");
-               double esal = double.Parse(Console.ReadLine());
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("How many Employees you want to tack:");
+        //    int n = int.Parse(Console.ReadLine());
+        //    Employ[] emp = new Employ[n];
+        //    for(int i=0;i<n;i++)
+        //    {
+        //        Console.Write("\nEnter ID:");
+        //        int eid = int.Parse(Console.ReadLine());
+        //        Console.Write("Enter Name:");
+        //        string ename = Console.ReadLine();
+        //        Console.Write("Enter salary:");
+        //       double esal = double.Parse(Console.ReadLine());
 
-                emp[i] = new Employ(eid, ename, esal);
-            }
-            for(int i=0;i<n;i++)
-            {
-                emp[i].Display();
-            }
-            Console.WriteLine("\nEnter Name for searching");
-            string searchname=Console.ReadLine();
-            for(int i=0;i<n;i++)
-            {
-                if (searchname == emp[i].name)
-                emp[i].Display();
-            }
+        //        emp[i] = new Employ(eid, ename, esal);
+        //    }
+        //    for(int i=0;i<n;i++)
+        //    {
+        //        emp[i].Display();
+        //    }
+        //    Console.WriteLine("\nEnter Name for searching");
+        //    string searchname=Console.ReadLine();
+        //    for(int i=0;i<n;i++)
+        //    {
+        //        if (searchname == emp[i].name)
+        //        emp[i].Display();
+        //    }
 
-        }
+        //}
 
     }
 }
